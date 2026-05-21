@@ -37,6 +37,6 @@ def generar(entrada):
     print(f"\n✅ Imagen generada guardada como: {nombre_archivo}")
 
     print(f"\n✅ Imagen guardada como: {nombre_archivo}")
-    #shutil.copy(f"{nombre_archivo}", f"C:/modelo_seductor/{nombre_archivo}")
+
     
 generar(prompt)
